@@ -43,21 +43,8 @@ Se analiza y estima la desigualdad del ingreso en el Perú (coeficiente de Gini)
 
 3. **Indicadores derivados**: suponiendo que el ingreso sigue una distribución log-normal (`G = 2Φ(σ/√2) − 1`), se recuperan σ, la curva de Lorenz, el índice de Theil, el de Atkinson (ε = 1), el ratio de Palma y la participación de cada quintil.
 
-4. **Microsimulación**: se generan 200 000 ingresos log-normales por año y se verifica que el Gini calculado sobre los microdatos reproduce el Gini objetivo (`outputs/tablas/microsimulacion.csv`).
+4. **Microsimulación**: se generan 200 000 ingresos log-normales por año y se verifica que el Gini calculado sobre los microdatos reproduce el Gini para el periodo 2025.
 
-## Estructura
-
-```
-├── main.py                  # Ejecuta todo el modelo
-├── data/                    # Datos de Perú, 2000-2025
-├── src/
-│   ├── datos.py             # Carga/descarga de datos (OWID, API del Banco Mundial)
-│   ├── gini.py              # Gini ponderado, Lorenz, Theil, Atkinson, Palma
-│   └── modelo.py            # Modelos MCO, ARIMA y microsimulación
-└── outputs/
-    ├── figuras/             # Gráficos
-    └── tablas/              # Resultados en CSV y resúmenes de regresión
-```
 
 ## Uso
 
