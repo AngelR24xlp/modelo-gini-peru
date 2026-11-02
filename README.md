@@ -1,6 +1,6 @@
-# Modelo económico del coeficiente de Gini – Perú 2020-2025
+# Coeficiente de Gini – Perú 2020-2025
 
-Modelo en Python que analiza y estima la desigualdad del ingreso en el Perú (coeficiente de Gini) para el periodo **2020-2025**. Usa la serie histórica 2000-2024 para estimar modelos econométricos y obtiene una **estimación para 2025**, último año sin dato oficial de Gini publicado.
+Se analiza y estima la desigualdad del ingreso en el Perú (coeficiente de Gini) para el periodo **2020-2025**. Usa la serie histórica 2000-2024 para estimar modelos econométricos y obtiene una **estimación para 2025**, último año sin dato oficial de Gini publicado.
 
 ## Resultados principales
 
