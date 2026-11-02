@@ -1,0 +1,17 @@
+modelo,variable,coef,error_std,p_valor
+kuznets_macro,const,-7.69102,4.66389,0.09914
+kuznets_macro,ln_pib_pc,1.90908,0.99648,0.05539
+kuznets_macro,ln_pib_pc2,-0.11051,0.0532,0.03778
+kuznets_macro,desempleo,-0.00417,0.00146,0.00419
+kuznets_macro,inflacion,-0.003,0.00104,0.00394
+kuznets_macro,R2_ajustado,0.94179,,
+kuznets_macro,AIC,-154.37899,,
+kuznets_macro,N,25.0,,
+dinamico,const,0.00566,0.04235,0.89359
+dinamico,gini_lag,1.00962,0.08741,0.0
+dinamico,crec_pib,-0.00201,0.00055,0.00028
+dinamico,desempleo,0.00033,0.00261,0.89809
+dinamico,inflacion,-0.0022,0.0019,0.24623
+dinamico,R2_ajustado,0.92392,,
+dinamico,AIC,-141.28562,,
+dinamico,N,24.0,,

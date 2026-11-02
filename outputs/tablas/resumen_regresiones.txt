@@ -1,0 +1,64 @@
+==============================================================================
+Modelo: kuznets_macro
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   gini   R-squared:                       0.951
+Model:                            OLS   Adj. R-squared:                  0.942
+Method:                 Least Squares   F-statistic:                     100.1
+Date:                Mon, 02 Nov 2026   Prob (F-statistic):           6.27e-13
+Time:                        04:27:59   Log-Likelihood:                 82.189
+No. Observations:                  25   AIC:                            -154.4
+Df Residuals:                      20   BIC:                            -148.3
+Df Model:                           4                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -7.6910      4.664     -1.649      0.099     -16.832       1.450
+ln_pib_pc      1.9091      0.996      1.916      0.055      -0.044       3.862
+ln_pib_pc2    -0.1105      0.053     -2.077      0.038      -0.215      -0.006
+desempleo     -0.0042      0.001     -2.863      0.004      -0.007      -0.001
+inflacion     -0.0030      0.001     -2.883      0.004      -0.005      -0.001
+==============================================================================
+Omnibus:                        0.121   Durbin-Watson:                   1.254
+Prob(Omnibus):                  0.941   Jarque-Bera (JB):                0.221
+Skew:                          -0.142   Prob(JB):                        0.896
+Kurtosis:                       2.639   Cond. No.                     1.86e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 1 lags and without small sample correction
+[2] The condition number is large, 1.86e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+==============================================================================
+Modelo: dinamico
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   gini   R-squared:                       0.937
+Model:                            OLS   Adj. R-squared:                  0.924
+Method:                 Least Squares   F-statistic:                     52.15
+Date:                Mon, 02 Nov 2026   Prob (F-statistic):           5.53e-10
+Time:                        04:27:59   Log-Likelihood:                 75.643
+No. Observations:                  24   AIC:                            -141.3
+Df Residuals:                      19   BIC:                            -135.4
+Df Model:                           4                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0057      0.042      0.134      0.894      -0.077       0.089
+gini_lag       1.0096      0.087     11.550      0.000       0.838       1.181
+crec_pib      -0.0020      0.001     -3.636      0.000      -0.003      -0.001
+desempleo      0.0003      0.003      0.128      0.898      -0.005       0.005
+inflacion     -0.0022      0.002     -1.160      0.246      -0.006       0.002
+==============================================================================
+Omnibus:                        0.739   Durbin-Watson:                   1.580
+Prob(Omnibus):                  0.691   Jarque-Bera (JB):                0.092
+Skew:                          -0.105   Prob(JB):                        0.955
+Kurtosis:                       3.219   Cond. No.                         245.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 1 lags and without small sample correction
+

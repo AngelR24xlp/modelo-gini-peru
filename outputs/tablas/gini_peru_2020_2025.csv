@@ -1,0 +1,7 @@
+anio,gini,pib_pc_ppp,crec_pib,desempleo,inflacion,fuente_gini,gini_kuznets_macro,gini_dinamico,gini_arima,ic95_inf_2025,ic95_sup_2025,sigma_lognormal,theil,atkinson_e1,ratio_palma,ratio_Q5_Q1,var_gini_pp
+2020,0.4374,13607.764,-10.9333,7.179,2.0024,observado (PIP-Banco Mundial/ENAHO),0.4322,0.4449,,,,0.8188,0.3352,0.2848,2.2688,10.1395,
+2021,0.4012,15285.7705,13.4166,5.097,4.2717,observado (PIP-Banco Mundial/ENAHO),0.4099,0.4126,,,,0.7441,0.2768,0.2418,1.8551,8.1762,-3.618
+2022,0.4035,15566.524,2.8182,4.291,8.3337,observado (PIP-Banco Mundial/ENAHO),0.3971,0.3882,,,,0.7487,0.2803,0.2444,1.8784,8.2857,0.2274
+2023,0.4066,15342.274,-0.3507,4.899,6.4556,observado (PIP-Banco Mundial/ENAHO),0.4034,0.4012,,,,0.755,0.285,0.248,1.9105,8.4372,0.3086
+2024,0.4013,15708.833,3.5153,5.199,2.0077,observado (PIP-Banco Mundial/ENAHO),0.4102,0.4064,,,,0.7442,0.2769,0.2419,1.8555,8.1781,-0.5319
+2025,0.4034,16079.125,3.4306,5.117,1.5313,estimado (promedio de modelos),0.4066,0.4022,0.4014,0.3778,0.4291,0.7486,0.2802,0.2444,1.8777,8.2824,0.2164
